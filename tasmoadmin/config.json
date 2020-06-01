@@ -13,10 +13,12 @@
   "hassio_role": "default",
   "map": ["ssl"],
   "ports": {
-    "9541/tcp": 9541
+    "9541/tcp": 9541,
+    "9542/tcp": 9542
   },
   "ports_description": {
-    "9541/tcp": "TasmoAdmin web interface"
+    "9541/tcp": "TasmoAdmin web interface",
+    "9542/tcp": "TasmoAdmin HTTP OTA firmwares"
   },
   "options": {
     "ssl": true,
